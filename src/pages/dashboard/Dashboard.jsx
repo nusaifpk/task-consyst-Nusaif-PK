@@ -53,12 +53,12 @@ const Dashboard = () => {
   );
 
   return (
-    <div>
-      <div>
-        <h1>CRES</h1>
-        <button onClick={handleLogout}>LogOut</button>
+    <div className="p-10">
+      <div className="flex p-10 justify-between">
+        <h1 className="text-4xl font-bold">CRES</h1>
+        <button onClick={handleLogout} className="text-white bg-green-600 px-3">Logout</button>
       </div>
-
+      <h1 className="text-xl my-5">Welcome to <span className="text-green-500 font-semibold">cres,</span></h1>
       <div className="flex gap-10">
 
         <span>
